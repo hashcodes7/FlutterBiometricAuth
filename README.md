@@ -14,16 +14,16 @@ changes done for biometric to work
         android:name="android.hardware.fingerprint"
         android:required="false" />
     <!-- my addons end-->
-    ```
+```
 2- go to android\app\src\main\kotlin\com\example\biometricauth\MainActivity.kt and change it to fragmented activity
-    ```kotlin
+```kotlin
     package com.example.biometricauth
 
     import io.flutter.embedding.android.FlutterFragmentActivity
 
     class MainActivity: FlutterFragmentActivity() {
     }
-    ```
+```
 3. Go to `ios/Runner/Info.plist` and add this inside the `<dict>`:
 
 ```xml
