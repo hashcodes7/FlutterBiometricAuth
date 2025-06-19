@@ -22,7 +22,7 @@ changes done for biometric to work
     }
 
 3- go to ios\Runner\Info.plist and add this inside dict
-	<key>NSFaceIDUsageDescription</key>
-	<string>We use Face ID or Touch ID to secure your Safenest vault.</string>
+	```<key>NSFaceIDUsageDescription</key>
+	<string>We use Face ID or Touch ID to secure your Safenest vault.</string>```
 4- in terminal , add dependency by running this command
     flutter pub add local_auth
