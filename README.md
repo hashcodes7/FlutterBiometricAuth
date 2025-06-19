@@ -21,8 +21,11 @@ changes done for biometric to work
     class MainActivity: FlutterFragmentActivity() {
     }
 
-3- go to ios\Runner\Info.plist and add this inside dict
-	```<key>NSFaceIDUsageDescription</key>
-	<string>We use Face ID or Touch ID to secure your Safenest vault.</string>```
+3. Go to `ios/Runner/Info.plist` and add this inside the `<dict>`:
+
+```xml
+<key>NSFaceIDUsageDescription</key>
+<string>We use Face ID or Touch ID to secure your Safenest vault.</string>
+
 4- in terminal , add dependency by running this command
     flutter pub add local_auth
