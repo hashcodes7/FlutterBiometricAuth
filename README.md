@@ -25,7 +25,8 @@ changes done for biometric to work
 
 ```xml
 <key>NSFaceIDUsageDescription</key>
-<string>We use Face ID or Touch ID to secure your Safenest vault.</string>```
+<string>We use Face ID or Touch ID to secure your Safenest vault.</string>
+```
 
 4- in terminal , add dependency by running this command
     flutter pub add local_auth
